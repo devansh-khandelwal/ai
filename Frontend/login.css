@@ -1,0 +1,87 @@
+.background_img {
+  height: 100vh;
+  background-image: url(./images/Background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  width: 100%;
+  height: 88px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.img {
+  margin-top: 18px;
+  margin-left: 70px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.welcome {
+  flex-direction: column;
+  margin-left: 70px;
+  margin-top: 150px;
+  width: 550px;
+  height: 200px;
+}
+.logo_img {
+  width: 70px;
+  height: 100px;
+}
+.init_msg {
+  color: white;
+  font-size: 48px;
+  font-family: "Poppins";
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.login_container {
+  margin-top: 50px;
+  backdrop-filter: blur(8px);
+  width: 450px;
+  height: 400px;
+  margin-left: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 30px;
+}
+.signup {
+  margin-top: 30px;
+  /* margin-left: 50px; */
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  font-family: "Poppins";
+  font-weight: 700;
+  word-wrap: break-word;
+}
+form {
+  margin-left: 50px;
+  margin-bottom: 80px;
+  width: 350px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(88, 87, 87);
+  color: white;
+  /* border: 1px solid red; */
+}
+input {
+  height: 25px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.loginBtn {
+  margin-top: 50px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #297bca;
+  color: white;
+}
+.pass {
+  margin-top: 15px;
+}
