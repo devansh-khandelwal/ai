@@ -23,13 +23,12 @@
 
 .chat-messages {
   scrollbar-width: none !important;
+  /* border: 1px solid red; */
+  height: auto !important;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-.chat-messages {
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
-  scrollbar-width: none; /* for Firefox */
-  overflow-y: scroll;
-}
 .chat-messages::-webkit-scrollbar {
-  display: none; /* for Chrome, Safari, and Opera */
+  display: none;
 }

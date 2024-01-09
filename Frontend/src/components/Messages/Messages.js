@@ -42,6 +42,7 @@ const ChatMsg = ({ token }) => {
   const chatRef = useRef(null);
   useEffect(() => {
     if (chatRef.current) {
+      console.log("scrollHeight:", chatRef.current.scrollHeight);
       chatRef.current.scrollTop = chatRef.current.scrollHeight;
     }
   }, [messages]);
