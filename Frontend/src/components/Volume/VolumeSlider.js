@@ -12,9 +12,6 @@ const VolumeSlider = () => {
 
   return (
     <div className="volume-slider-container">
-      <label className="volume-slider-label" htmlFor="volumeSlider">
-        Volume
-      </label>
       <input
         className="volume-slider-input"
         type="range"
@@ -26,7 +23,6 @@ const VolumeSlider = () => {
         value={volume}
         onChange={handleVolumeChange}
       />
-      <span className="volume-slider-value">{volume}%</span>
     </div>
   );
 };
