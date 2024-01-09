@@ -1,0 +1,27 @@
+.video-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.webcam-feed {
+  flex: 0 0 60%;
+}
+.webcam-feed .webcam-container video {
+  max-width: 50rem;
+  max-height: 18rem;
+  padding-left: 15px;
+  padding-top: 7.5px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  /* padding-left: 35px; */
+}
+
+.controls .mute-button {
+  display: flex;
+  justify-self: flex-end;
+}

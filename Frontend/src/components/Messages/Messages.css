@@ -1,0 +1,35 @@
+.chat_bot {
+  display: flex;
+  justify-content: center;
+}
+.user-message {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #2a90e8;
+  color: white;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}
+
+.bot-message {
+  display: flex;
+  flex-direction: row;
+  background-color: #e9e9eb;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}
+
+.chat-messages {
+  scrollbar-width: none !important;
+}
+
+.chat-messages {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+.chat-messages::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}

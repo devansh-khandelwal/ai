@@ -1,0 +1,11 @@
+.webcam-container {
+  border-radius: 20px;
+}
+.webcam-container video {
+  border-radius: inherit;
+  max-width: 24rem;
+  max-height: 12rem;
+  position: relative;
+  border: none;
+  margin-right: 2rem;
+}

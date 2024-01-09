@@ -1,0 +1,28 @@
+/* VolumeSlider.css */
+.volume-slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+  }
+  
+  .volume-slider-label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .volume-slider-input {
+    transform: rotate(270deg);
+    width: auto;
+    height: auto;
+    margin-top: 3.5rem;
+    margin-bottom: 3rem; /* Add margin to the bottom of the slider */
+  }
+  
+  .volume-slider-value {
+    margin-top: 8px;
+    color: white;
+  }
+  

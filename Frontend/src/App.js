@@ -1,19 +1,22 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { AppProvider } from "./Context/AppContext";
-import Login from "./login";
-import Home from "./home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { AppProvider } from "./utils/Context";
+import Login from "./Pages/LoginPage/login";
+import Home from "./Pages/HomePage/home";
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem("token"));
 
-  //For SignOut
-  const signUserOut = () => {
-    localStorage.clear();
-    setToken(false);
-    window.location.pathname = "/";
-  };
+  // const signUserOut = () => {
+  //   localStorage.clear();
+  //   setToken(false);
+  //   window.location.pathname = "/";
+  // };
+
+  // useEffect(() => {
+  //   if (token) signUserOut();
+  // }, [token]);
 
   return (
     <div className="App">

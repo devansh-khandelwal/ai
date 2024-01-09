@@ -1,0 +1,29 @@
+.svg-container {
+  width: auto;
+  height: auto;
+}
+
+.mic-label {
+  align-items: center;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: white;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button {
+  transition: opacity 0.3s ease-in-out;
+}
+
+button:focus {
+  outline: none;
+}
