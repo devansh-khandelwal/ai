@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./login.css";
 import Vector from "./../../images/Vector.svg";
 import logo from "./../../images/logo_g.png";
@@ -6,13 +6,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "./../../utils/Axios";
 
 function Login({ setToken }) {
-  var authToken = localStorage.getItem("token");
   const navigate = useNavigate();
-  useEffect(() => {
-    if (authToken) {
-      navigate("/home");
-    }
-  }, []);
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
