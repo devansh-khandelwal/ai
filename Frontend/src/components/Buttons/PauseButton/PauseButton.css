@@ -1,10 +1,10 @@
-.pause_btn{
-    margin-left: 30px;
-    backdrop-filter: blur(6px);
-    border: 0.1px solid gray;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 160px;
+.pause_btn {
+  margin-left: 30px;
+  backdrop-filter: blur(6px);
+  border: 0.1px solid gray;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 160px;
 }

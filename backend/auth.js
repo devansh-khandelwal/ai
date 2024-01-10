@@ -1,7 +1,6 @@
-import jwt from 'jsonwebtoken';
+import jwt from "jsonwebtoken";
 const config = process.env;
 
-//Creating jwt token for logged in user
 const verifyToken = (req, res, next) => {
   console.log(req.body);
   const token = req.body.token;
@@ -13,7 +12,7 @@ const verifyToken = (req, res, next) => {
     const decoded = jwt.verify(token, config.TOKEN_KEY);
     req.user = decoded;
     console.log(req.user);
-    console.log(("verified"));
+    console.log("verified");
   } catch (err) {
     return res.status(401).send("Invalid Token");
   }

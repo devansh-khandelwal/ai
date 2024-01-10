@@ -9,16 +9,15 @@
   flex: 0 0 60%;
 }
 .webcam-feed .webcam-container video {
-  max-width: 25rem;
-  max-height: 15rem;
-  padding-left: 55px;
-  padding-top: 30px;
+  max-width: 50rem;
+  max-height: 18rem;
+  padding-left: 15px;
+  padding-top: 7.5px;
 }
 
 .controls {
   display: flex;
   flex-direction: row;
-  /* padding-left: 35px; */
 }
 
 .controls .mute-button {

@@ -23,7 +23,6 @@
 
 .chat-messages {
   scrollbar-width: none !important;
-  /* border: 1px solid red; */
   height: auto !important;
   -ms-overflow-style: none;
   scrollbar-width: none;
